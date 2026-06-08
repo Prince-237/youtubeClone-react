@@ -1,0 +1,69 @@
+nav {
+  padding: 10px 2%;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navl .menu {
+  width: 22px;
+  margin-right: 25px;
+}
+
+.navl .logo{
+    width: 130px;
+}
+
+.navm .searchb{
+border: 1px solid #ccc;
+margin-right: 15px;
+padding: 8px 12px;
+border-radius: 25px;
+}
+
+.navm .searchb input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+.navm .searchb img{
+    width: 15px;
+}
+
+.navr img{
+    width: 25px;
+    margin-right: 25px;
+}
+
+.navr .user{
+    width: 35px;
+    border-radius: 50%;
+}
+
+@media (max-width: 900px) {
+    .menu{
+        display: none;
+    }
+
+    .navr img{
+        display: none;
+    }
+
+    .navr .user{
+        display: block;
+        width: 30px;
+    }
+
+    .logo{
+        width: 90px;
+    }
+
+    .navm .searchb input{
+        width: 100px;
+    }
+}

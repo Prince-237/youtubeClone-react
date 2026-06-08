@@ -1,0 +1,29 @@
+.recommended{
+    flex-basis: 34%;
+}
+
+.svl{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.svl img{
+    flex-basis: 49%;
+    width: 50%;
+}
+
+.vi{
+    flex-basis: 49%;
+}
+
+.vi h4{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 900px) {
+    .recommended{
+        flex-basis: 100%;
+    }
+}
